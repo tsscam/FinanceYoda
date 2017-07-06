@@ -1,0 +1,201 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Yoda Finances</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="~/Content/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/Content/nivo-slider.css" type="text/css" media="screen" />
+</head>
+<body>
+
+    <img style="float:left;" src="data:image/jpeg;base64,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mctcs89RHKJU8LdLQFeoUXocSVpr2Zj/ABtB6xn6HULciDmryup1PvMlzN+bfPmOqgNcu0VRed0z3qQAOeIaA9R1/FYuP43MlMx2YjVdtYm1X4abmubkCSR9lyF1VIfLR3hnO48uS7C7b8Bwh2UHxH5CeS5X4XbOvYS0uEg4Yz0meR0yy91FIUu8qL3uNVrnBpG0COsEKPWrF0F2ZAAJ5xueq6YW3yxdMERF0QREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQFAvqmHUw07vHyBP2U9aq9APAa7TE0k8gHCY6xKl8EQrJYGh0tHd3O56eSkOs012vBgYHBx54e80eveHqpbw0E4BDZMc42nqvFJj8aXfyIiLSCIiAiIgpxRFO2ZNhr28siZz+f1WNuouLi1rTGRJbt0j0U+30HOwuZ42nLqDGIfIeynOZ3G1AO66Y8xGIHqJC52f01v4Rrl4jLP2daC0ZTzHJzVLtNMNd3TLSJHlyUerSa4Q4Ag817SbhYGDwtJicyJiRO4yVmOr8JvbJERbQREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/2Q==" alt="" />
+
+
+
+    <div id="main">
+        <!-- header begins -->
+        <div id="header">
+            <div id="buttons">
+                <a href="~/Content/contact_us.html" class="but" title="">Budget</a>
+                <a href="https://www.omnicalculator.com/math/percentage-increase" class="but" title="">% Calculator</a>
+          
+                <a href="~/Views/Account/Login.cshtml" class="but" title="">Blog</a>
+                <a href="~/Content/about_us.html" class="but" title="">Survey</a>
+
+                <a href="~/Account/LogOff" class="but but_t" title="">Guide</a>
+            </div>
+
+            <div id="logo">
+                <h1 style="margin-top:20px; font-size:30px; color:#00ff90"</h1>YODA Master of your Own Finances</h1>
+            </div>
+
+        </div>
+        <!-- header ends -->
+        <div class="top">
+
+            <div id="slider-wrapper">
+                <div id="slider" class="nivoSlider">
+                    <img src="~/Content/images/top.jpg" alt="" />
+                    <img src="~/Content/images/top2.jpg" alt="" />
+                    <img src="~/Content/images/top3.jpg" alt="" />
+                    <img src="~/Content/images/top4.jpg" alt="" />
+                    <img src="~/Content/images/top5.jpg" alt="" />
+                    <img src="~/Content/images/top6.jpg" alt="" />
+                    <img src="~/Content/images/top7.jpg" alt="" />
+                </div>
+
+            </div>
+
+            <script type="text/javascript" src="~/Content/lib/jquery-1.4.3.min.js"></script>
+            <script type="text/javascript" src="~/Content/lib/jquery.nivo.slider.pack.js"></script>
+            <script type="text/javascript">
+                    $(window).load(function () {
+                        $('#slider').nivoSlider();
+                    });
+            </script>
+
+        </div>
+
+        <div style="height: 47px"></div>
+        <!-- content begins -->
+        <div class="cont_top"></div>
+        <div id="content">
+            <div class="all_box">
+                <div class="home_box">
+                    <img src="~/Content/images/YODA Code.jpg" class="img_l" alt="" />
+                    <div style="height:15px"></div>
+                    <br />
+                    <br />
+                    <h1>Saving Goal Calculator</h1>
+                    
+                    <div style="clear: both"></div>
+                    <div style="height:5px"></div>
+                    <div style="height:20px"><a href="http://www.calcxml.com/calculators/savings-calculator-now?skn=368&r=1" target="_blank" class="read">Learn more</a></div>
+                </div>
+                <div style="width: 15px; height:26px; float: left;"></div>
+                <div class="home_box">
+                    <img src="~/Content/images/Yoda Money.jpg" class="img_l" alt="" />
+                    <div style="height:15px"></div>
+                    <br />
+                    <br />
+                    <h1> Financial Horoscope </h1>
+                    <div style="clear: both"></div>
+                    <div style="height:5px"></div>
+                    <div style="height:20px"><a href="https://www.horoscope.com/us/horoscopes/money/horoscope-money-weekly.aspx?sign=10" target="_blank" class="read">Click </a></div>
+                </div>
+                <div style="width: 15px; height:26px; float: left;"></div>
+                <div class="home_box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjG3f0EFhhqYAIYe4EqVBiRuGUVOgjqEGt9fkVhgFRZbUjrHjGUg" target="_blank" class="img_l" alt="" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <h3>@ViewBag.RandomQuote</h3>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div style="height:20px"></div>
+            <div class="box_more">
+                <div class="box_more_l"> Gain wisdom to improve your financial decision making</div>
+                <div class="box_more_r">
+                    <a href="/Account/Register" button=button type="submit"> Register Here! </a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <br />
+        </div>
+        <!-- content ends -->
+        <div style="height:10px"></div>
+        <div id="bottom_bot">
+            <div id="bottom">
+                <div id="b_col1">
+                    <h1>Useful Resources</h1>
+                    <div style="height:10px"></div>
+                    <ul class="spis_bot">
+                        @*
+                            <li><a href="#"> Business Math </a></li>
+                            <li><a href="#"> Accounting Fundementals </a></li>
+                            <li><a href="C:\Users\tssca\@*Documents\Visual Studio 2015\Projects\YodaProject\YodaProject\Views\Home\Ratio.xlsx"> Practical Ratios w/Speadsheet </a></li>
+                        *@
+                        <li><a href="http://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx" target="_blank">Auto Loan Calculator</a></li>
+                        <li><a href="http://www.calculator.net/" target="_blank"> Calculator </a></li>
+                        <li><a href="https://www.calculatorsoup.com/calculators/math/adding-fractions-calculator.php" onclick="window.open('https://www.calculatorsoup.com/calculators/math/adding-fractions-calculator.php?do=pop','Adding Fractions Calculator','width=400,height=600,toolbar=no,menubar=no,scrollbars=yes,resizable=yes');return false;">Fractions Calculator</a></li>
+                        <li><a href="https://www.buzzfeed.com/kellyoakes/maths-facts-youll-probably-never-need-to-use?utm_term=.iyJdO1pXw#.fuyyoG8rp" target="_blank"> Fun Facts </a></li>
+                        <li><a href="http://www.fbla-pbl.org/files/5114/4609/0315/business_calculations_online_ref_guide.pdf" target="_blank"> Practical Lessons  </a></li>
+                    </ul>
+                </div>
+                <div id="b_col2">
+                    <h1>Contact Information</h1>
+                    <div style="height:20px"></div>
+                    <div style="padding-left:10px">
+                        <div class="box_us">
+                            <div class="box_us_l">
+                                <img src="~/Content/images/fish_us1.png" alt="" />
+                            </div>
+                            <div class="box_us_r">
+                                <b class="lh">Grand Circus Tech Hub</b>
+                            </div>
+                            <div style="clear: both; height:10px;"></div>
+                        </div>
+                        <div class="box_us">
+                            <div class="box_us_l">
+                                <img src="~/Content/images/fish_us2.png" alt="" />
+                            </div>
+                            <div class="box_us_r">
+                                <b class="lh">
+                                    Phone:  (313) 623-3569 <br />
+                                </b>
+                            </div>
+                            <div style="clear: both; height:10px;"></div>
+                        </div>
+                        <div class="box_us">
+                            <div class="box_us_l">
+                                <img src="~/Content/images/fish_us3.png" alt="" />
+                            </div>
+                            <div class="box_us_r">
+                                <a href="mailto:tsscamaro@gmail.com">Send Me an E-Mail!</a>
+                                <b class="lh"> tsscamaro@gmail.com</b>
+                            </div>
+                            <div style="clear: both; height:10px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="b_col3">
+                    <h1>Get Social</h1>
+                    <div style="height:10px"></div>
+                    <ul>
+                        <li><img src="~/Content/images/fu_i1.png" class="fu_i" alt="" /><a href="https://www.grandcircus.co/blog/meet-the-2017-developher-scholarship-recipients/">Grand Circus</a></li>
+                        <li><img src="~/Content/images/fu_i2.png" class="fu_i" alt="" /><a href="https://www.facebook.com/theresa.skonieczny">Like on Facebook</a></li>
+                        <li><img src="~/Content/images/fu_i3.png" class="fu_i" alt="" /><a href="https//github.com/tsscam">GitHub</a></li>
+                        <li><img src="~/Content/images/fu_i4.png" class="fu_i" alt="" /><a href="https://www.linkedin.com/in/tskon/">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div style="clear: both; height:10px;"></div>
+            </div>
+        </div>
+        <!-- bottom end -->
+        <!-- footer begins -->
+        <div id="footer">
+            Copyright  2017. <!-- Do not remove --><a href="" title="Free CSS Templates">Theresa's Leaning Adventures </a><!-- end --><br />
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+        </div>
+        <!-- bottom end -->
+        <!-- footer begins -->
+        <div id="footer">
+            Copyright  2011. <!-- Do not remove --><a href="~/Content/http://www.myfreecsstemplates.com/" title="Free CSS Templates">Free CSS Templates</a><!-- end --><br />
+            <a href="~/Content/">Privacy Policy</a> | <a href="~/Content/">Terms of Use</a>
+        </div>
+        <!-- footer ends -->
+    </div>
+
+
+</body>
+</html>

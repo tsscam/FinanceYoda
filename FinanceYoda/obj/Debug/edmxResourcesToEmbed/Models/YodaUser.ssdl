@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebApp2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'WebApp2.dbo.WebApp2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="WebApp2">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="firstName" />
+      <PropertyRef Name="lastName" />
+      <PropertyRef Name="age" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="age" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WebApp2ModelStoreContainer">
+    <EntitySet Name="WebApp2" EntityType="Self.WebApp2" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [WebApp2].[ID] AS [ID], 
+    [WebApp2].[Email] AS [Email], 
+    [WebApp2].[firstName] AS [firstName], 
+    [WebApp2].[lastName] AS [lastName], 
+    [WebApp2].[age] AS [age]
+    FROM [dbo].[WebApp2] AS [WebApp2]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
